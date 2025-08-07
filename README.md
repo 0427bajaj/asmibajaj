@@ -52,6 +52,11 @@ modified- is changed
 stage- engagement- is screen shot taken- is file is ready to commit, after modification & adding 3rd stage is staged before commit
 commit- wedding phase- unchanged file, all screen shot has been taken by git, nothing is untracked 
 ------------------------------------------<br></P><p><p></p>
+>> stay in the folder that has file in it eg
+PS C:\Users\P3056738\OneDrive - Charter Communications\Desktop\gitdesktopfolder\asmibajaj>
+<br>
+This folder have that file, I will saty in this folder and push the change
+------------------------------------------<br></P><p><p></p>
 1. Add, it will be staged after we add- status will be Stage
 <br>
 git add README.md
