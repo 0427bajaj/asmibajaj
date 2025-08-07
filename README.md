@@ -1,7 +1,7 @@
 # asmibajaj
 learning git
 
-P> 
+P> <center>
 download git & visual studio <br>
         <codevisualstudio.com>( visual studio)
         <git-scm.com></git-scm.com> (download git)
@@ -90,18 +90,41 @@ it will ask to connect to remote ask permission and ask authorization
 <br>
 ------------------------------------------<br></P><p><p></p>
 git init 
-to make it git repository
+to make it git repository a folder in visual code
 create new git repo 
 mkdir 7 name of new folder
 go intols - this folder run git init to make it git repository for local system and have git folder that will be hidden can check with <br>
 ls -a
 <br>
 ------------------------------------------<br></P><p><p></p>
-
-<br>
-
-
-
+README
+if select read me while creating repositary then we also have to bring to local respoitory
 <br>
 ------------------------------------------<br></P><p><p></p>
 
+to set repository link and origin
+
+git remote add origin <https://github.com/0427bajaj/asmirenuubajaj.git>
+
+go to folder and run PS C:\Users\P3056738\OneDrive - Charter Communications\Desktop\gitdesktopfolder\LocalRepo> git remote add origin <https://github.com/0427bajaj/asmirenuubajaj.git>
+
+<br>
+------------------------------------------<br></P><p><p></p>
+git remote -v ( to verify remote) to see which is remote repositry
+
+<br>
+------------------------------------------<br></P><p><p></p>
+to check which branch we are in
+git branch
+
+<br>
+------------------------------------------<br></P><p><p></p>
+to rename branch
+git branch -M (new name)
+git branch -M main
+<br>
+------------------------------------------<br></P><p><p></p>
+git push as short cut to creat use this one time, next time we can use only git push to push to same repository
+git push -u origin main
+<br>
+------------------------------------------<br></P><p><p></p>
