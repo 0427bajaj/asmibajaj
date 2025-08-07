@@ -9,7 +9,7 @@ download git & visual studio <br>
         git --version to check set up
        <br>
 ------------------------------------------<br></P><p><p></p>
-       set user name ans email <br>
+       config change- set user name ans email <br>
        % git config --global user.name "0427bajaj"
        (to set up user name)
        % git config --global user.email "0427bajaj@gmail.com"
@@ -40,24 +40,23 @@ and hit enter
 <br>
 ------------------------------------------<br></P><p><p></p>
 cd, cd .. mkdir, ls, ls -a, git status, clear <br>
-now use cd and older name to go into directory
-and mkdir and name of folder to create new folder
-to clear terminal clear 
-cd and folder name to go into the folder
+
+cd and name of folder to go to the folder/directory
 cd .. to come out of the folder
+mkdir and name of folder to create new folder
+clear terminal clear 
 ls is to list all the files under the folder
-ls -a can be used to see even hidden file
-it will also show .git file
+ls -a can be used to see even hidden file,it will also show .git file
 git status can be used to see the status of project if anything to commit like there is gap in destop and remote repisiorygit status( VS code will show yellow and M on file)
 <br>
 ------------------------------------------<br></P><p><p></p>
 add- scrren shot, modified, staged,commit <br>
+
 untract file/ new file- are git do not know what is in the file as screen shot /add was never taken
 modified- is changed
 stage- engagement- is screen shot taken- is file is ready to commit, after modification & adding 3rd stage is staged before commit
 commit- wedding phase- unchanged file, all screen shot has been taken by git, nothing is untracked 
 <br>
-------------------------------------------<br></P><p><p></p>
 >> stay in the folder that has file in it eg
 PS C:\Users\P3056738\OneDrive - Charter Communications\Desktop\gitdesktopfolder\asmibajaj>
 <br>
@@ -66,7 +65,7 @@ This folder have that file, I will saty in this folder and push the change
 ------------------------------------------<br></P><p><p></p>
 1. Add, it will be staged after we add- status will be Stage
 <br>
-git add README.md
+git add README.md (README.md is file name here that has changes )
 git add . ( to add many changes)
 <br>
 ------------------------------------------<br></P><p><p></p>
@@ -75,9 +74,9 @@ git status
 <br>
 
 ------------------------------------------<br></P><p><p></p>
-3. commit (legal recor)- it add changes to local repo
+3. commit (legal record)- it add changes to local repo
 <br>
-git commit -m "message"
+git commit -m "message" ( message is the message you want to keep to track change)
 git commit -m "commiting 1st change"
 
 <br>
@@ -111,20 +110,18 @@ go to folder and run PS C:\Users\P3056738\OneDrive - Charter Communications\Desk
 <br>
 ------------------------------------------<br></P><p><p></p>
 git remote -v ( to verify remote) to see which is remote repositry
-
-<br>
-------------------------------------------<br></P><p><p></p>
-to check which branch we are in
-git branch
-
-<br>
-------------------------------------------<br></P><p><p></p>
-to rename branch
-git branch -M (new name)
-git branch -M main
 <br>
 ------------------------------------------<br></P><p><p></p>
 git push as short cut to creat use this one time, next time we can use only git push to push to same repository
 git push -u origin main
+<br>
+------------------------------------------<br></P><p><p></p>
+git branch ( to check branch)
+to check which branch we are in
+eg: git branch -M main ( to rename branch)
+git branch -M (new name)
+git checkout <-branch name-> (to navigate)
+git checkout -b <- new branch name-> (to create new branch)
+git branch -d <-branch name-> to delete branch)
 <br>
 ------------------------------------------<br></P><p><p></p>
